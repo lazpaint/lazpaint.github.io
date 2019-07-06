@@ -1,0 +1,24 @@
+.jumbotron {
+    background-color: PaleTurquoise;
+    background-image: linear-gradient(120deg, LemonChiffon, PaleTurquoise);
+    margin: 0px;
+}
+
+.download {
+    height: 100vh;
+    background-image: url('img/bkg.jpg');
+    background-size: cover;
+}
+
+.download h1 {
+    padding: 30px;
+}
+
+.footer {
+    color: slategray;
+    background-color: black;
+}
+
+.footer h1 {
+    color: slategray;
+}
