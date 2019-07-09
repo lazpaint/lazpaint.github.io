@@ -6,13 +6,22 @@
 
 .download {
     height: 100vh;
-    background-image: url('img/bkg.jpg');
+    background-color: white;
+    background-image: url('img/bkg.png');
     background-size: cover;
     background-position: center;
 }
 
 .download h1 {
     padding: 30px;
+}
+
+.download .card {
+    background-color: rgba(255,255,255,0.5);
+}
+
+#os-hint {
+    font-size: 125%;
 }
 
 .footer {
