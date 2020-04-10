@@ -8,7 +8,7 @@
     $('#os-hint').text('Your current Operating System is ' + OSName);
 
     var repo = 'https://github.com/bgrabitmap/lazpaint/releases/download/'
-    var version = '7.0.7'
+    var version = '7.1.1'
 
     document.getElementById('title').innerHTML = `Download LazPaint ${version}`
     document.getElementById('link_win32_no_install').setAttribute('href', `${repo}v${version}/lazpaint${version}_win32_no_install.zip`)
@@ -18,6 +18,6 @@
     document.getElementById('link_linux64_no_install').setAttribute('href', `${repo}v${version}/lazpaint${version}_linux64_no_install.tar.gz`)
     document.getElementById('link_linux32_deb').setAttribute('href', `${repo}v${version}/lazpaint${version}_linux32.deb`)
     document.getElementById('link_linux64_deb').setAttribute('href', `${repo}v${version}/lazpaint${version}_linux64.deb`)
-    document.getElementById('link_macos32_dmg').setAttribute('href', `${repo}v${version}/lazpaint${version}_macos32.dmg`)
+    document.getElementById('link_macos32_dmg').setAttribute('href', `${repo}v7.0.7/lazpaint7.0.7_macos32.dmg`)
     document.getElementById('link_macos64_dmg').setAttribute('href', `${repo}v${version}/lazpaint${version}_macos64.dmg`)
 })();
