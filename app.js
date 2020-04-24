@@ -8,7 +8,7 @@
     $('#os-hint').text('Your current Operating System is ' + OSName);
 
     var repo = 'https://github.com/bgrabitmap/lazpaint/releases/download/'
-    var version = '7.1.1'
+    var version = '7.1.2'
 
     document.getElementById('title').innerHTML = `Download LazPaint ${version}`
     document.getElementById('link_win32_no_install').setAttribute('href', `${repo}v${version}/lazpaint${version}_win32_no_install.zip`)
