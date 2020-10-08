@@ -10,7 +10,7 @@
     var repo = 'https://github.com/bgrabitmap/lazpaint/releases/download/'
     var version = '7.1.4'
 
-    document.getElementById('title').innerHTML = `Download LazPaint ${version}`
+    document.getElementById('download').innerHTML = `Download LazPaint ${version}`
     document.getElementById('link_win32_no_install').setAttribute('href', `${repo}v${version}/lazpaint${version}_win32_no_install.zip`)
     document.getElementById('link_win64_no_install').setAttribute('href', `${repo}v${version}/lazpaint${version}_win64_no_install.zip`)
     document.getElementById('link_installer_win32_win64').setAttribute('href', `${repo}v${version}/lazpaint${version}_setup_win32_win64.exe`)
