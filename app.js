@@ -18,6 +18,6 @@
     document.getElementById('link_linux64_no_install').setAttribute('href', `${repo}v${version}/lazpaint${version}_linux64_no_install.tar.gz`)
     document.getElementById('link_linux32_deb').setAttribute('href', `${repo}v${version}/lazpaint${version}_linux32.deb`)
     document.getElementById('link_linux64_deb').setAttribute('href', `${repo}v${version}/lazpaint${version}_linux64.deb`)
-    document.getElementById('link_macos32_dmg').setAttribute('href', `${repo}v7.0.7/lazpaint7.0.7_macos32.dmg`)
+    document.getElementById('link_macos32_dmg').setAttribute('href', `${repo}${version}/lazpaint${version}_macos32.dmg`)
     document.getElementById('link_macos64_dmg').setAttribute('href', `${repo}${version}/lazpaint${version}_macos64.dmg`)
 })();
