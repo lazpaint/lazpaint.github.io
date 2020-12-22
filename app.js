@@ -5,7 +5,7 @@
     if (navigator.appVersion.indexOf("X11") != -1) OSName = "UNIX";
     if (navigator.appVersion.indexOf("Linux") != -1) OSName = "Linux";
 
-    $('#os-hint').text(OSName);
+    $('#os-name').text(OSName);
 
     var repo = 'https://github.com/bgrabitmap/lazpaint/releases/download/'
     var version = '7.1.6'
