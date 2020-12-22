@@ -1,11 +1,11 @@
 (function () {
-    var OSName = "Unknown OS";
+    var OSName = "unknown";
     if (navigator.appVersion.indexOf("Win") != -1) OSName = "Windows";
     if (navigator.appVersion.indexOf("Mac") != -1) OSName = "MacOS";
     if (navigator.appVersion.indexOf("X11") != -1) OSName = "UNIX";
     if (navigator.appVersion.indexOf("Linux") != -1) OSName = "Linux";
 
-    $('#os-hint').text('Your current Operating System is ' + OSName);
+    $('#os-hint').text(OSName);
 
     var repo = 'https://github.com/bgrabitmap/lazpaint/releases/download/'
     var version = '7.1.6'
