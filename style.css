@@ -9,7 +9,7 @@
 .jumbotron {
     background-color: black;
     background-image: url('img/blog-back.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     margin: 0px;
     box-shadow: inset 0 0 100px black;
