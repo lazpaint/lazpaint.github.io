@@ -3,16 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lazpaint.github.io/last/</loc>
-    <lastmod>2021-01-10T23:37:53+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lazpaint.github.io/</loc>
+    <loc>https://lazpaint.github.io/ru/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
                 href="https://lazpaint.github.io/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lazpaint.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -33,11 +33,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://lazpaint.github.io/ru/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://lazpaint.github.io/"
                 />
   </url>
   

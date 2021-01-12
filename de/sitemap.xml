@@ -26,6 +26,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="https://lazpaint.github.io/ru/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="de"
                 href="https://lazpaint.github.io/de/"
                 />
