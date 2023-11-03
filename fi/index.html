@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="generator" content="Hugo 0.101.0" />
+    <meta name="generator" content="Hugo 0.119.0">
     <link rel="alternate" href="https://lazpaint.github.io/de/" hreflang="de" />
     <link rel="alternate" href="https://lazpaint.github.io/" hreflang="en" />
     <link rel="alternate" href="https://lazpaint.github.io/es/" hreflang="es" />
@@ -11,96 +11,104 @@
     <link rel="alternate" href="https://lazpaint.github.io/fr/" hreflang="fr" />
     <link rel="alternate" href="https://lazpaint.github.io/ru/" hreflang="ru" />
     
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="PaleTurquoise">
 
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/picnic.min.css">
+    <link rel="stylesheet" href="../css/style.css">
     
     <title>Lataa LazPaint</title>
   </head>
   <body>
-    <div class="float-right d-inline-block m-1">
-        <a href="https://lazpaint.github.io/de/" class="btn btn-light">de</a>
-        <a href="https://lazpaint.github.io/" class="btn btn-light">en</a>
-        <a href="https://lazpaint.github.io/es/" class="btn btn-light">es</a>
-        <span class="btn btn-success">fi</span>
-        <a href="https://lazpaint.github.io/fr/" class="btn btn-light">fr</a>
-        <a href="https://lazpaint.github.io/ru/" class="btn btn-light">ru</a>
-    </div>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <img class="logo" src="/img/lazpaint_icon.png" width="128" height="128" style="float: left" alt="LazPaint logo">
-            <h1 class="display-4">LazPaint</h1>
-            <p class="lead" style="color: #e0e0e0;">Ilmainen alustojen välinen kuvankäsittelyohjelma rasteri- ja vektorikerroksilla, kirjoitettu Lasaruksessa (Free Pascal).</p>
-            <div id="nav-border" class="container">
-                <nav id="nav" class="nav">
-                    <a href="https://lazpaint.blogspot.com/" class="btn text-uppercase btn btn-outline-secondary ">Blog</a>&nbsp;
-                    <a href="/last/" class="btn text-uppercase btn btn-outline-secondary ">Viimeiset muutokset</a>&nbsp;
-                    <a href="https://wiki.freepascal.org/LazPaint/fi" class="btn text-uppercase btn btn-outline-secondary ">Dokumentointi</a>&nbsp;
-                    <a href="/fi/" class="btn text-uppercase btn-outline-light">Ladata</a>&nbsp;
-                    <a href="https://lazpaint.blogspot.com/p/screenshots.html" class="btn text-uppercase btn btn-outline-secondary ">Kuvakaappauksia</a>&nbsp;
-                    <a href="https://forum.lazarus.freepascal.org/index.php/board,46.0.html" class="btn text-uppercase btn btn-outline-secondary ">Foorumi</a>&nbsp;
-                    <a href="https://www.facebook.com/LazPaint" class="btn btn-primary">f</a>
-                </nav>
+    <div class="top">    
+      <div class="languages">
+        <a href="https://lazpaint.github.io/de/" class="button">de</a>
+        <a href="https://lazpaint.github.io/" class="button">en</a>
+        <a href="https://lazpaint.github.io/es/" class="button">es</a>
+        <span class="button" disabled>fi</span>
+        <a href="https://lazpaint.github.io/fr/" class="button">fr</a>
+        <a href="https://lazpaint.github.io/ru/" class="button">ru</a>
+      </div>
+      <div class="header">
+        <img class="logo" src="../img/lazpaint_icon.png" width="128" height="128" style="float: left" alt="LazPaint logo">
+        <h1>LazPaint</h1>
+        <p class="lead">Ilmainen alustojen välinen kuvankäsittelyohjelma rasteri- ja vektorikerroksilla, kirjoitettu Lasaruksessa (Free Pascal).</p>
+      </div>
+            <div class="menu">
+                    <a href="https://lazpaint.blogspot.com/" class="button">Blog</a>&nbsp;
+                    <a href="../last/" class="button">Viimeiset muutokset</a>&nbsp;
+                    <a href="https://wiki.freepascal.org/LazPaint/fi" class="button">Dokumentointi</a>&nbsp;
+                    <a href="../fi/" class="button success">Ladata</a>&nbsp;
+                    <a href="https://lazpaint.blogspot.com/p/screenshots.html" class="button">Kuvakaappauksia</a>&nbsp;
+                    <a href="https://forum.lazarus.freepascal.org/index.php/board,46.0.html" class="button">Foorumi</a>&nbsp;
+                    <a href="https://www.facebook.com/LazPaint" class="button facebook">f</a>
             </div>
-        </div>
     </div>
     <main id="main">
-    <div class="text-center download">
-        <div class="card">
-            <h1 id="download">Lataa LazPaint 7.2.2</h1>
-            <p><a href="http://sourceforge.net/donate/index.php?group_id=404555" class="btn btn-success">Lahjoittaa</a></p>
-            <p id="os-hint" style="visibility: hidden">Nykyinen käyttöjärjestelmäsi on %s</p>
-            <h2>Windows</h2>
-            <p><a class="btn btn-dark" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_setup_win32_win64.exe">Asennus (32- ja 64-bittinen)
-                    </a>
-                <a class="btn btn-dark" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_win32_no_install.zip">Arkisto 32-bittinen
-                    (Ei asennusta)</a>
-                <a class="btn btn-dark" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_win64_no_install.zip">Arkisto 64-bittinen
-                    (Ei asennusta)</a>
-                <a href="https://portableapps.com/apps/graphics_pictures/lazpaint-portable" class="btn btn-dark">Portable (32- ja 64-bittinen)</a></p>
-            <h2>Linux</h2>
-            <p><a class="btn btn-dark" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_linux32.deb">32-bittinen Deb-paketti
-                    </a>
-                <a class="btn btn-dark" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_linux64.deb">64-bittinen Deb-paketti
-                    </a>
-                <a class="btn btn-dark" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_linux32_no_install.tar.gz">Arkisto 32-bittinen
-                    (Ei asennusta)</a>
-                <a class="btn btn-dark" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_linux64_no_install.tar.gz">Arkisto 64-bittinen
-                    (Ei asennusta)</a></p>
-            <h2>Linux (Qt5)</h2>
-            <p><a class="btn btn-dark" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_linux64_qt5.deb">Qt5 64-bittinen Deb-paketti
-                    </a>
-                <a class="btn btn-dark" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_linux64_qt5_no_install.tar.gz">Qt5 Arkisto 64-bittinen
-                    (Ei asennusta)</a></p>
-            <h2>Raspberry Pi</h2>
-            <p><a class="btn btn-dark" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_raspbian-hf.deb">32-bittinen Deb-paketti
-                    </a>
-                
-                <a class="btn btn-dark" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_raspbian-hf_no_install.tar.gz">Arkisto 32-bittinen
-                    (Ei asennusta)</a>
-                </p>
-            
-            <h2>MacOS</h2>
-            <p>
-                <a class="btn btn-dark" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_macos64.dmg">MacOS
-                    64-bittinen</a>
-                <a class="btn btn-dark" href="https://formulae.brew.sh/cask/lazpaint">MacOS
-                    brew</a></p>                    
+    <div class="download">
+      <div class="content center">
+        <h1 id="download">Lataa LazPaint 7.2.2</h1>
+        <p><a href="http://sourceforge.net/donate/index.php?group_id=404555" class="button success">Lahjoittaa</a></p>            
+        <div id="found-os" style="visibility: hidden">
+          <p id="os-hint">Nykyinen käyttöjärjestelmäsi on %s</p>
         </div>
+        <div id="other-os">
+          <div id="Windows">
+            <h2>Windows</h2>
+            <p><a class="button" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_setup_win32_win64.exe">Asennus (32- ja 64-bittinen)
+                    </a>
+                <a class="button" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_win32_no_install.zip">Arkisto 32-bittinen
+                    (Ei asennusta)</a>
+                <a class="button" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_win64_no_install.zip">Arkisto 64-bittinen
+                    (Ei asennusta)</a>
+                <a href="https://portableapps.com/apps/graphics_pictures/lazpaint-portable" class="button">Portable (32- ja 64-bittinen)</a></p>
+          </div>
+          <div id="Linux">
+            <h2>Linux</h2>
+            <p><a class="button" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_linux32.deb">32-bittinen Deb-paketti
+                    </a>
+                <a class="button" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_linux64.deb">64-bittinen Deb-paketti
+                    </a>
+                <a class="button" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_linux32_no_install.tar.gz">Arkisto 32-bittinen
+                    (Ei asennusta)</a>
+                <a class="button" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_linux64_no_install.tar.gz">Arkisto 64-bittinen
+                    (Ei asennusta)</a></p>
+            <h2>Rpi</h2>
+            <p><a class="button" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_raspbian-hf.deb">32-bittinen Deb-paketti
+                    </a>
+                <a class="button" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_raspbian64.deb">64-bittinen Deb-paketti
+                    </a>
+                <a class="button" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_raspbian-hf_no_install.tar.gz">Arkisto 32-bittinen
+                    (Ei asennusta)</a>
+                <a class="button" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_raspbian64_no_install.tar.gz">Arkisto 64-bittinen
+                    (Ei asennusta)</a></p>
+          </div>
+          <div id="UNIX">
+            <h2>FreeBSD</h2>
+             <p><a class="button" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_freebsd64_no_install.tar.gz">Arkisto 64-bittinen
+                    (Ei asennusta)</a></p>
+          </div>
+          <div id="MacOS">
+            <h2>MacOS</h2>
+            <p><a class="button" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_macos32.dmg">MacOS
+                    32-bittinen</a>
+                <a class="button" href="https://github.com/bgrabitmap/lazpaint/releases/download/v7.2.2/lazpaint7.2.2_macos64.dmg">MacOS
+                    64-bittinen</a>
+                <a class="button" href="https://formulae.brew.sh/cask/lazpaint">MacOS
+                    brew</a></p>       
+          </div>             
+        </div>
+      </div>
     </div>
     </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    
 	<script>
-    	var OSName = "unknown";
+    	let OSName = "unknown";
     	if (navigator.appVersion.indexOf("Win") != -1) OSName = "Windows";
     	if (navigator.appVersion.indexOf("Mac") != -1) OSName = "MacOS";
     	if (navigator.appVersion.indexOf("X11") != -1) OSName = "UNIX";
@@ -108,9 +116,15 @@
 
     	if (OSName != "unknown")
     	{
-    	    osHint = $('#os-hint');
-        	osHint.text(osHint.text().replace("%s", OSName));
-        	osHint.css("visibility", "visible");
+    	    const osHint = document.getElementById("os-hint");
+        	osHint.innerHTML = osHint.innerHTML.replace("%s", OSName);
+        	
+        	const foundOs = document.getElementById("found-os");
+        	foundOs.style.visibility = "visible";
+        	
+        	const osSpecific = document.getElementById(OSName);
+        	if (osSpecific)
+        	  foundOs.appendChild(osSpecific);
     	}
 	</script>
   </body>
